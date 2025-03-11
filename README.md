@@ -15,23 +15,33 @@ Ce projet vise à explorer l'utilisation de l'Intelligence Artificielle et du De
 ## 🛠️ Technologies utilisées
 
 Python (TensorFlow, Keras, OpenCV, NumPy, Pydicom)
+
 Databricks (gestion des clusters, stockage DBFS, notebooks)
+
 GitHub (versioning du projet)
+
 MLflow (suivi des expériences ML - à venir)
 
 ## 🚀 Pipeline du projet
 
 Stockage des images dans DBFS
+
 Prétraitement des images (lecture, redimensionnement, normalisation)
+
 Entraînement d’un modèle de Deep Learning (CNN avec TensorFlow/Keras)
+
 Évaluation du modèle sur un jeu de test
+
 Déploiement futur d’une application de prédiction
 
 ## 🔜 Prochaines étapes
 
 📌 Créer le modèle de Deep Learning
+
 📌 Affiner le modèle en testant différentes architectures
+
 📌 Optimiser l’entraînement pour améliorer les performances
+
 📌 Développer une interface permettant d’uploader une image et obtenir une prédiction
 
 ## 📝 Notes
