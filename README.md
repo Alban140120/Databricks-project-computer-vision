@@ -7,9 +7,13 @@ Ce projet vise à explorer l'utilisation de l'Intelligence Artificielle et du De
 ## 🗂️ Structure du projet
 
 📁 My folder/
+
 ├── 📁 dicom_images/ → Contient les images médicales au format DICOM
+
 ├── 📄 config.py → Configuration du projet
+
 ├── 📄 test_dicom.zip → Archive contenant des images DICOM
+
 ├── 📓 Projet ml computer vision medical → Notebook Databricks pour l'entraînement du modèle
 
 ## 🛠️ Technologies utilisées
