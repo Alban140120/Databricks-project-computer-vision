@@ -1,10 +1,12 @@
 # 📌 Databricks Project - Computer Vision in Medical Imaging
 
-## 🏥 Contexte
+### 🏥 Contexte
 
-Ce projet vise à explorer l'utilisation de l'Intelligence Artificielle et du Deep Learning pour l'analyse d'images médicales au format DICOM. L'objectif est de créer un modèle capable d'identifier la présence d'un cancer à partir d'images médicales, en s'appuyant sur Databricks comme environnement de développement.
+Ce projet explore l'utilisation de l'Intelligence Artificielle pour l'analyse d'images médicales au format DICOM.
+L'objectif est d'appliquer des techniques de réduction de dimension (ACP) et de clustering (K-Means) pour identifier des structures et tendances dans les données d'imagerie médicale.
+Le tout est développé dans Databricks, permettant une gestion efficace du stockage et du calcul distribué.
 
-## 🗂️ Structure du projet
+### 🗂️ Structure du projet
 
 📁 My folder/
 
@@ -14,40 +16,28 @@ Ce projet vise à explorer l'utilisation de l'Intelligence Artificielle et du De
 
 ├── 📄 test_dicom.zip → Archive contenant des images DICOM
 
-├── 📓 Projet ml computer vision medical → Notebook Databricks pour l'entraînement du modèle
+├── 📓 Projet ACP Clustering DICOM → Notebook Databricks pour le traitement et l'analyse des images
 
-## 🛠️ Technologies utilisées
+### 🛠️ Technologies utilisées
 
-Python (TensorFlow, Keras, OpenCV, NumPy, Pydicom)
+🔹 Python (NumPy, Pydicom, OpenCV, Matplotlib, Scikit-learn)
 
-Databricks (gestion des clusters, stockage DBFS, notebooks)
+🔹 Databricks (gestion des clusters, stockage DBFS, notebooks)
 
-GitHub (versioning du projet)
+🔹 GitHub (versioning du projet)
 
-MLflow (suivi des expériences ML - à venir)
+🔹 MLflow (suivi des expérimentations - à venir)
 
-## 🚀 Pipeline du projet
+### 🚀 Pipeline du projet
 
-Stockage des images dans DBFS
+✅ Stockage des images DICOM dans DBFS
 
-Prétraitement des images (lecture, redimensionnement, normalisation)
+✅ Prétraitement des images (lecture, redimensionnement, normalisation)
 
-Entraînement d’un modèle de Deep Learning (CNN avec TensorFlow/Keras)
+✅ Détection d'anomalies (images trop petites, très sombres, métadonnées manquantes...)
 
-Évaluation du modèle sur un jeu de test
+✅ Réduction de dimension avec ACP (Analyse en Composantes Principales)
 
-Déploiement futur d’une application de prédiction
+✅ Clustering des images avec K-Means
 
-## 🔜 Prochaines étapes
-
-📌 Créer le modèle de Deep Learning
-
-📌 Affiner le modèle en testant différentes architectures
-
-📌 Optimiser l’entraînement pour améliorer les performances
-
-📌 Développer une interface permettant d’uploader une image et obtenir une prédiction
-
-## 📝 Notes
-
-Ce projet est en cours de développement et fera l’objet d'améliorations régulières.
+✅ Visualisation des résultats
