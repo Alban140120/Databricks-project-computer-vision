@@ -1,24 +1,24 @@
-# 📌 Databricks Project - Computer Vision in Medical Imaging
+# Databricks Project - Computer Vision in Medical Imaging
 
-### 🏥 Contexte
+### Contexte
 
 Ce projet explore l'utilisation de l'Intelligence Artificielle pour l'analyse d'images médicales au format DICOM.
 L'objectif est d'appliquer des techniques de réduction de dimension (ACP) et de clustering (K-Means) pour identifier des structures et tendances dans les données d'imagerie médicale.
 Le tout est développé dans Databricks, permettant une gestion efficace du stockage et du calcul distribué.
 
-### 🗂️ Structure du projet
+### Structure du projet
 
-📁 My folder/
+My folder/
 
-├── 📁 dicom_images/ → Contient les images médicales au format DICOM
+├── dicom_images/ → Contient les images médicales au format DICOM
 
-├── 📄 config.py → Configuration du projet
+├── config.py → Configuration du projet
 
-├── 📄 test_dicom.zip → Archive contenant des images DICOM
+├── test_dicom.zip → Archive contenant des images DICOM
 
-├── 📓 Projet ACP Clustering DICOM → Notebook Databricks pour le traitement et l'analyse des images
+├── Projet ACP Clustering DICOM → Notebook Databricks pour le traitement et l'analyse des images
 
-### 🛠️ Technologies utilisées
+### Technologies utilisées
 
 🔹 Python (NumPy, Pydicom, OpenCV, Matplotlib, Scikit-learn)
 
@@ -28,11 +28,11 @@ Le tout est développé dans Databricks, permettant une gestion efficace du stoc
 
 🔹 MLflow (suivi des expérimentations - à venir)
 
-### 🚀 Pipeline du projet
+### Pipeline du projet
 
-✅ Stockage des images DICOM dans DBFS
+Stockage des images DICOM dans DBFS
 
-✅ Prétraitement des images (lecture, redimensionnement, normalisation)
+Prétraitement des images (lecture, redimensionnement, normalisation)
 
 ✅ Détection d'anomalies (images trop petites, très sombres, métadonnées manquantes...)
 
